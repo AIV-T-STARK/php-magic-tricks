@@ -2,6 +2,9 @@
 
 /* Insert Magic Code Here */
 
+$array = [&$var, &$var, &$var];
+// Giống như con trỏ, khi thay đổi 1 phần tử, thì tất các các phần thử khác đều thay đổi.
+
 // NO CHANGES ALLOWED BELOW
 
 var_dump(count($array), array_sum($array));
